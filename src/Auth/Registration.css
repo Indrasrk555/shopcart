@@ -1,0 +1,109 @@
+.registerfont{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+   #full3{
+     width: 300px;
+     background-color:#fca21163 ;
+     border: #fca21163 solid ;
+     padding: 25px;
+      border: #fca311 solid; 
+  
+     margin-top: 15px;
+   }
+  .forgot-password{
+    margin: 10px;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  .navbar-light {
+    
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  }
+  .div1{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .title1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fca311;
+    margin-left:-20px;
+    text-decoration: solid underline;
+   
+  }
+  .slider1{
+    width: 650px;
+    height: 400px;
+    margin-top: 40px;
+    margin-right: 60px;
+    margin-left: -40px;
+    
+  }
+  #form1{
+    margin: 100px;
+    padding: 20px;
+    width: 330px;
+    margin: auto;
+    text-align: center;
+    height: 510px;
+    background-color:white;
+    
+    margin-top: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 4%;
+  
+  }
+  
+  
+  .input1{
+    
+    border: none;
+   border-bottom: 2px solid #8d99ae;
+  padding: 10px;
+   
+   
+  }
+  #button1{
+    background-color: #fca311;
+    
+    text-align: center;
+   
+    
+    color: #fff;
+    cursor: pointer;
+   
+  
+  }
+  #button1:hover{
+    background-color: rgb(160, 43, 72);
+  }
+  .warning{
+    color: red;
+    margin-top: 17px;
+    margin-bottom: 1px;
+  }
+  .war{
+    color: red;
+  }
+  #pcode{
+    margin-left: -54px;
+    border: none;
+    cursor: pointer;
+  }
+  #standard-basic{
+    padding: 4px;
+  }
+  
+  
+  

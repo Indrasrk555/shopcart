@@ -1,0 +1,80 @@
+#abtimg{
+    height: 500px;
+    width: 550px;
+}
+#top{
+    text-align: left;
+}
+.topimg{
+    margin-top: 60px;
+    padding: 10px;
+}
+.writting{
+    margin-top: 60px;
+    padding: 10px;
+}
+#wrldsbst{
+    font-family: cursive;
+    text-align: left;
+
+}
+#abtpg{
+    text-align: left;
+    font-size: 15px;
+}
+#abtpg1{
+    text-align: left;
+    font-family: cursive;
+    font-size: 16px;
+}
+#tencntry{
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+#abthd{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Courier New''Arial';
+    color: rgb(245, 47, 33);
+    
+}
+.our{
+    margin-top: 100px;
+}
+.clients{
+    margin-top: 80px;
+}
+#abtcard{
+    margin-top: 40px;
+    padding: 10px;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+#section3{
+    background-color: rgb(233, 221, 221);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#abtus{
+    text-align: left;
+    font-size: 40px;
+    font-family: fantasy;
+    color:rgba(199, 21, 134, 0.616);
+    letter-spacing:0.2em
+}
+#wrldsbst{
+    color: cadetblue;
+}
+#tencntry{
+    color: crimson;
+}
+#abtpg{
+    font-size: 18px;
+}
+#abtpg1{
+    font-size: 17px;
+}
+#clnt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: deeppink;
+}

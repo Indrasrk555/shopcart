@@ -1,0 +1,45 @@
+#faqimg{
+    height: 550px;
+    width: 1550px
+}
+#faqhd{
+    text-align: left;
+    font-size: 40px;
+    font-family: fantasy;
+    color:rgba(199, 21, 134, 0.616);
+    letter-spacing:0.2em    
+}
+#faqcard{
+    background-color: rgb(156, 11, 156);
+    color: white;
+    padding: 24px;
+    text-align: center;
+}
+#faqcard:hover{
+    transform:scale(1.1) ;
+}
+#faqicon{
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+}
+#accr{
+    margin: 15px 0px;
+    background-color: rgb(96, 250, 255);
+    color: rgb(66, 56, 206);
+}
+#section5{
+    background-color: rgb(233, 221, 221);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#typfaq{
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+}

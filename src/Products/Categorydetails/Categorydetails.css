@@ -1,0 +1,12 @@
+#card1{
+    padding-top: 10px;
+    margin-bottom: 50px;
+    height: 520px;
+    width: 250px;
+    margin: 0 auto;
+    box-shadow: 5px darkslateblue;
+  }
+#card1:hover{
+    transform:scale(1.04) ;
+    
+}

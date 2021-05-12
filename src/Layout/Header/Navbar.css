@@ -1,0 +1,81 @@
+.navimg{
+    height: 65px;
+    width: 100px;
+    
+}
+#basic-nav-dropdown{
+    color: yellow;
+  
+}
+#navcolor{
+ background-color: rgb(94, 186, 247)
+}
+#navitems{
+    border: none;
+    font-size: 23px;
+    font-weight: normal;
+    font-family: cursive;
+}
+#navitems:hover{
+    color: rgb(240, 16, 8);
+}
+#navheading{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    padding-left: 30px;
+}
+#navitems1{
+    font-size: 19px;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cart-icon {
+	color: azure;
+	font-size: 30px;
+    padding: 5px;
+    
+}
+.nav__right{
+    margin-top: 6px;
+}
+#headricon{
+    color: rgb(226, 17, 209);
+    height: 35px;
+    width: 33px;
+    padding-right: 10px;
+}
+#usricon{
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+}
+#userlogin{
+  color: blue;
+  
+}
+#dwrtxt{
+    font-size: 40px;
+    font-weight: 500;
+}
+#section11{
+    color: yellowgreen;
+}
+#hdrcmp{
+    font-size: 17px;
+    margin: 7px;
+    color: blanchedalmond;
+}
+#hdrcmp:hover{
+    color: rgb(17, 184, 11);
+}
+.hdrcrticon{
+    color: var(--main);
+    font-size: 28px;
+    margin: 5px;
+}
+ #hdrlogo{
+    height: 50px;
+    width: 160px;
+}

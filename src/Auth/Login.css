@@ -1,0 +1,45 @@
+
+.loginform{
+  text-align: center;
+  align-items: right;
+}
+.loginimg{
+    padding-top: 20px;
+       height: 200px;
+}
+.center{
+    /* background-image:  url("https://images.pexels.com/photos/374894/pexels-photo-374894.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+    background-size: cover;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(0, 26, 255));
+    /* height: 500px; */
+} 
+.loginbtn{
+    font-weight: 600;
+    font-family: monospace;
+   border-radius: 5px;
+   margin-top:20px;
+   width: 80px;
+   height: 40px;
+   background-color: aqua;
+   color: coral;
+   box-shadow: slateblue;
+}
+.loginbtn:hover{
+   
+    color: rgb(253, 11, 181);
+    background-color: salmon;
+}
+
+.log_head{
+    color: rgb(180, 29, 218);
+    padding: 40px;
+    font-size: 40px;
+    font-style: inherit;
+    font-family: cursive
+    
+}
+.error1{
+    color: rgb(214, 6, 6);
+     font-size: 20px;
+}
+

@@ -1,0 +1,62 @@
+.hth{
+    padding: 10px;
+    margin-top: 50px;
+    text-align: left;
+}
+.oh{
+    text-align: left;
+    padding: 10px;
+}
+.fu{
+    text-align: left;
+    align-items: left;
+    
+}
+.dual{
+    text-align: left;
+    padding-top: 50px;
+}
+.lbl{
+    text-align: left;
+    
+    font-size: 0.875rem;
+    font-weight: 400;
+    
+}
+.frm{
+    text-align: left;
+    margin-top: 20px;
+}
+#cnctbtn{
+    margin: 20px 0 20px 20px;
+}
+#cnctimg{
+    height: 600px;
+    width: max-content;
+}
+#cncticon{
+    height: 30px;
+    width: 30px;
+   padding: 2px;
+   color: rgb(228, 15, 82);
+}
+.cnctip{
+   width: 100%;
+}
+#section2{
+    background-color: rgb(233, 221, 221);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#cntct{
+    text-align: left;
+    font-size: 40px;
+    font-family: fantasy;
+    color:rgba(199, 21, 134, 0.616);
+    letter-spacing:0.2em
+}
+#typcntct{
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+}
