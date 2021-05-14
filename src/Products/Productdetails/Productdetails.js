@@ -47,17 +47,17 @@ export default function Productdetails({ match }) {
 
 
 
-  //   function AddToCart(product){
+//     function AddToCart(product){
 // 	  let id = product.id;
 // 	  let DataExist = CartDetails.find((e)=>(
 // 		  e.id===id
-	//   ))
-	//   if(DataExist){
-	// 	  DispatchMethod()
-	//   }
-	//   console.log(id);
-	// DispatchMethod(CartDet(product));
-	//  history.push('/Cart')
+// 	  ))
+// 	  if(DataExist){
+// 		  DispatchMethod()
+// 	  }
+// 	  console.log(id);
+// 	DispatchMethod(CartDet(product));
+// 	 history.push('/Cart')
 // }
   
     
