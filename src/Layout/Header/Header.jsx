@@ -35,9 +35,16 @@ import { AiFillShopping } from "react-icons/ai";
 import { ImProfile } from "react-icons/im";
 import { BsFillQuestionSquareFill } from "react-icons/bs";
 import { FaAmazon } from "react-icons/fa";
-import { GrBusinessService } from "react-icons/gr";
-import { GrContact } from "react-icons/gr";
+import { FaServicestack } from "react-icons/fa";
+import { MdPermContactCalendar } from "react-icons/md";
+
 const useStyles = makeStyles((theme) => ({
+  sectionDesktop: {
+    display: "none",
+    [theme.breakpoints.up("md")]: {
+      display: "flex",
+    },
+  },
   menuButton: {
     marginRight: theme.spacing(2),
   },
@@ -67,6 +74,9 @@ export default function Header() {
    const { totalqty } = useSelector((state) => state.cartData);
 
   const history = useHistory();
+  const HomeD = () => {
+    history.push("/Home");
+  };
   const ProductD = () => {
     history.push("/Registration");
   };
@@ -93,9 +103,6 @@ export default function Header() {
   };
   const aboutus = () => {
     history.push("/About");
-  };
-  const help = () => {
-    history.push("/Help");
   };
   const cart = () => {
     history.push("/Cart");
@@ -175,15 +182,11 @@ export default function Header() {
               </ListItem>
 
               <ListItem button id="listitemheaderA" onClick={Productservice}>
-                <GrBusinessService id="headricon" /> <ListItemText primary="Services" id="dwrtxt"/>
+                <FaServicestack id="headricon" /> <ListItemText primary="Services" id="dwrtxt"/>
               </ListItem>
 
               <ListItem button id="listitemheaderA" onClick={Productcontactus}>
-                <GrContact id="headricon" /> <ListItemText primary="Contact Us" id="dwrtxt"/>
-              </ListItem>
-
-              <ListItem button id="listitemheaderA">
-                <BiHelpCircle id="headricon" /> <ListItemText primary="Help" onClick={help} id="dwrtxt" />
+                <MdPermContactCalendar id="headricon" /> <ListItemText primary="Contact Us" id="dwrtxt"/>
               </ListItem>
 
               <ListItem button id="listitemheaderA" onClick={aboutus}>
@@ -233,8 +236,17 @@ export default function Header() {
 
               <Typography variant="h6" className={classes.title}></Typography>
 
-            
               
+              <div className={classes.sectionDesktop}>
+              <Link to="/Home">
+                <Typography
+                  variant="h6"
+                  className={classes.title}
+                  id="hdrcmp"
+                >
+                 HOME
+                </Typography>
+              </Link>
               <Link to="/Productcategory">
                 <Typography
                   variant="h6"
@@ -277,6 +289,8 @@ export default function Header() {
                      FAQ
                 </Typography>
                 </Link> 
+                </div>
+                
               <div className="nav__right">
                 <Link to="/cart">
                   <div className="basket">

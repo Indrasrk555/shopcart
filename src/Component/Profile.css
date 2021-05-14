@@ -1,0 +1,34 @@
+#profile{
+    background-color: rgb(233, 221, 221);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#prflhd{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: cursive;
+    color:rgba(11, 113, 230, 0.952);
+}
+#typprfl{
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+}
+#prflcard{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(255, 0, 0, 0.836);
+    padding: 10px;
+    letter-spacing:0.05em;
+    font-style: italic;
+}
+#prfltext{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(238, 83, 63);
+    letter-spacing:0.05em;
+    font-style: italic;
+}

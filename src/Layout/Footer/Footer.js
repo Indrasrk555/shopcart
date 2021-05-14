@@ -15,6 +15,7 @@ export default function Footer() {
         <Container>
         <Row>
             <Col lg="3">
+                
              <h5 className="foot_head">About</h5>
              <p className="foot_para">Contact Us</p>
              <p className="foot_para">About Us</p>

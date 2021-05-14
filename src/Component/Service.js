@@ -39,20 +39,20 @@ export default function Service() {
            <div className="ship">
               
             <h3 className="svchdng"><FaShippingFast />   Shipping Times and Costs</h3>
-            <p>Complimentary ground shipping within 1 to 7 business days</p>
-            <p>In-store collection available within 1 to 7 business days</p>
-            <p>Next-day and Express delivery options also available</p>
-            <p>Purchases are delivered in an orange box tied with a Bolduc ribbon, with the exception of certain items</p>
+            <p id="s">Complimentary ground shipping within 1 to 7 business days</p>
+            <p id="s">In-store collection available within 1 to 7 business days</p>
+            <p id="s">Next-day and Express delivery options also available</p>
+            <p id="s">Purchases are delivered in an orange box tied with a Bolduc ribbon, with the exception of certain items</p>
             </div>
         </Container>
 
         <Container>
            <div className="pay">
            <h3 className="svchdng"><MdPayment/>  Payment Methods</h3>
-           <p>Xton accepts the following payment methods:</p>
-           <p>Credit Card: Visa, MasterCard, Discover, American Express, JCB, Visa Electron. The total will be charged to your card when the order is shipped.</p>
-           <p>Xton features a Fast Checkout option, allowing you to securely save your credit card details so that you don't have to re-enter them for future purchases.</p>
-           <p>PayPal: Shop easily online without having to enter your credit card details on the website.Your account will be charged once the order is completed. To register for a PayPal account, visit the website paypal.com.</p>
+           <p id="s">Xton accepts the following payment methods:</p>
+           <p id="s">Credit Card: Visa, MasterCard, Discover, American Express, JCB, Visa Electron. The total will be charged to your card when the order is shipped.</p>
+           <p id="s">Xton features a Fast Checkout option, allowing you to securely save your credit card details so that you don't have to re-enter them for future purchases.</p>
+           <p id="s">PayPal: Shop easily online without having to enter your credit card details on the website.Your account will be charged once the order is completed. To register for a PayPal account, visit the website paypal.com.</p>
            </div>
        </Container>
 
@@ -60,7 +60,7 @@ export default function Service() {
        <Container>
            <div className="return">
            <h3 className="svchdng"> <GiCardExchange/>  Exchanges, Returns and Refunds</h3>
-           <p>Items returned within 14 days of their original shipment date in same as new condition will be eligible for a full refund or store credit. Refunds will be charged back to the original form of payment used for purchase. Customer is responsible for shipping charges when making returns and shipping/handling fees of original purchase is non-refundable</p>
+           <p id="s">Items returned within 14 days of their original shipment date in same as new condition will be eligible for a full refund or store credit. Refunds will be charged back to the original form of payment used for purchase. Customer is responsible for shipping charges when making returns and shipping/handling fees of original purchase is non-refundable</p>
            </div>
        </Container>
 

@@ -43,25 +43,25 @@ export default function Contact() {
             <Row>
                 <Col lg="6">
                     <div className="hth">
-                <h3 className="">Here To Help</h3>
-                <p id="">Have a question? You may find an answer in our FAQs. But you can also contact us.</p>
-                <p id="">Location: Wonder Street, USA, New York</p>
-                <p id="">Call Us: +1-541-754-3010</p>
-                <p id="">Email Us: hello@livani.com</p>
-                <p id="">Fax: +123456789</p> 
+                <h2 className="hppy">Here To Help</h2>
+                <p id="h">Have a question? You may find an answer in our FAQs. But you can also contact us.</p>
+                <p id="h">Location: Wonder Street, USA, New York</p>
+                <p id="h">Call Us: +1-541-754-3010</p>
+                <p id="h">Email Us: hello@livani.com</p>
+                <p id="h">Fax: +123456789</p> 
                 </div>
 
                 <div className="oh">
-                <h3 className="">Opening Hours:</h3>
-                <p id="">Monday: 8AM - 6AM</p>
-                <p id="">Tuesday: 8AM - 6AM</p>
-                <p id="">Wednesday: 8AM - 6AM</p>
-                <p id="">Thursday - Friday: 8AM - 6AM</p>
-                <p id="">Sunday: Closed</p> 
+                <h2 className="hppy">Opening Hours:</h2>
+                <p id="h">Monday: 8AM - 6AM</p>
+                <p id="h">Tuesday: 8AM - 6AM</p>
+                <p id="h">Wednesday: 8AM - 6AM</p>
+                <p id="h">Thursday - Friday: 8AM - 6AM</p>
+                <p id="h">Sunday: Closed</p> 
                 </div>
 
                 <div className="fu">
-                <h3 className="">Follow Us:</h3>
+                <h2 className="hppy">Follow Us:</h2>
                 <p>
                 <TiSocialFacebookCircular id="cncticon"/>
                 <TiSocialInstagramCircular id="cncticon"/>
@@ -75,23 +75,23 @@ export default function Contact() {
                 
                 <Col lg="6">
                 <div className="dual">
-                    <h3 className="">Drop Us A Line</h3>
-                    <p>We're happy to answer any questions you have or provide you with an estimate. Just send us a message in the form below with any questions you may have.</p>       
+                    <h2 className="hppy">Drop Us A Line</h2>
+                    <p id="h">We're happy to answer any questions you have or provide you with an estimate. Just send us a message in the form below with any questions you may have.</p>       
                
                 </div>
                 
                 <div className="frm">
-                    <label className="lbl">NAME* : </label><br/>
+                    <label className="lbl">NAME* : </label>
                     <input type="text" name="fullname" className="cnctip" placeholder="Enter Your Name" />
                     <br/>
-                    <label className="lbl">EMAIL* : </label><br/>
+                    <label className="lbl">EMAIL* : </label>
                     <input type="email" name="email" className="cnctip" placeholder="Enter Email Address" />
                     <br/>
-                    <label className="lbl">PHONE NUMBER * : </label><br/>
+                    <label className="lbl">PHONE NUMBER * : </label>
                     <input type="number" name="mobile" className="cnctip" placeholder="Enter your phone number"/>
                     <br/>
-                    <label className="lbl">YOUR MESSAGE * : </label><br/>
-                    <input type="text" name="message" className="cnctip" placeholder="Enter Your Message Here"/>
+                    <label className="lbl">YOUR MESSAGE * : </label>
+                    <input type="subject" name="message" className="cnctip" placeholder="Enter Your Message Here"/>
                     <br/>
                     <button id="cnctbtn"> SEND MESSAGE </button>
                 </div>

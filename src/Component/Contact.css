@@ -18,30 +18,42 @@
 }
 .lbl{
     text-align: left;
-    
-    font-size: 0.875rem;
-    font-weight: 400;
-    
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(233, 90, 7);
 }
 .frm{
     text-align: left;
-    margin-top: 20px;
+    margin-top: 60px;
+   
 }
 #cnctbtn{
-    margin: 20px 0 20px 20px;
+    margin: 50px 20px 0 140px;
+    height: 50px;
+    width: 100px;
+    font-weight: 600;
+    color: slateblue;
+    background-color: rgb(168, 196, 233);
+}
+#cnctbtn:hover{
+    background-color: coral;  
 }
 #cnctimg{
     height: 600px;
     width: max-content;
 }
 #cncticon{
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
    padding: 2px;
    color: rgb(228, 15, 82);
 }
 .cnctip{
-   width: 100%;
+   width: 60%;
+   height: 35px;
+   border-radius: 4px;
 }
 #section2{
     background-color: rgb(233, 221, 221);
@@ -59,4 +71,11 @@
     font-size: 25px;
     font-family: cursive;
     font-style: italic;
+}
+.hppy{
+    font-family:fantasy;
+    color: darkorchid;
+}
+#h{
+    font-size: 16px;
 }

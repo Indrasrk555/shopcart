@@ -39,7 +39,10 @@
     font-style: italic;
 }
 .svchdng{
-    color: rgba(241, 166, 105, 0.993);
+    color: rgba(245, 121, 19, 0.993);
     font-family:cursive;
     padding-bottom: 10px;
+}
+#s{
+    font-size: 16px;
 }

@@ -18,10 +18,10 @@ import * as yup from 'yup';
 
 const validationSchema = yup.object({
     firstname: yup
-    .string('Enter your Firstname')
+    .string('Enter your First name')
     .required(' Fristname is required'),
     lastname: yup
-    .string('Enter your Lastname')
+    .string('Enter your Last name')
     .required('Lastname is required'),
     email: yup
     .string('Enter your email')
@@ -70,7 +70,7 @@ const validationSchema = yup.object({
         
         id="firstname"
         name="firstname"
-        label="Firstname"
+        label="First name"
         value={formik.values.firstname}
         onChange={formik.handleChange}
         error={formik.touched.firstname && Boolean(formik.errors.firstname)}
@@ -81,7 +81,7 @@ const validationSchema = yup.object({
         
         id="lastname"
         name="lastname"
-        label="Lastname"
+        label="Last name"
         value={formik.values.lastname}
         onChange={formik.handleChange}
         error={formik.touched.lastname && Boolean(formik.errors.lastname)}
