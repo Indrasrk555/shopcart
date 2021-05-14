@@ -38,8 +38,16 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.faqcrd{
+    margin-bottom: 45px;
+}
 #typfaq{
     font-size: 25px;
     font-family: cursive;
     font-style: italic;
+}
+#accrtopic{
+    font-size: 20px;
+    color: rgb(245, 11, 11);
+    font-weight: 400;
 }

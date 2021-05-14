@@ -4,9 +4,25 @@
     height: 520px;
     width: 250px;
     margin: 0 auto;
-    box-shadow: 5px darkslateblue;
+    box-shadow: 5px 5px #cecbcb;
   }
-#card1:hover{
-    transform:scale(1.04) ;
-    
+  .pro{
+    padding-bottom: 50px;
+    margin-top: 10px;
+  }
+#sectioncd{
+  background-color: rgb(233, 221, 221);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#cdhead{
+  text-align: left;
+  font-size: 40px;
+  font-family: fantasy;
+  color:rgba(199, 21, 134, 0.616);
+}
+#cdpro{
+  font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
 }

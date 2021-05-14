@@ -34,7 +34,15 @@ export default function Productdetails({ match }) {
 }
 
  const notify=()=>{
-     toast.success('Product added to cart',{position:toast.POSITION.TOP_RIGHT})
+	toast.success('Product added to cart', {
+		position: "top-right",
+		autoClose: 1500,
+		hideProgressBar: false,
+		closeOnClick: true,
+		pauseOnHover: true,
+		draggable: true,
+		progress: undefined,
+		});
    }
 
 

@@ -22,11 +22,11 @@ export default function Categorydetails({ match }) {
   
   return (
     <div>
-      <section id="sectionppp1">
+      <section id="sectioncd">
          <Container>
            <Row>
            <Col lg="6">
-             <h3>{cdetails}</h3>
+             <h3 id="cdhead">{cdetails}</h3>
            </Col>
            <Col lg="6">
            <Breadcrumbs aria-label="breadcrumb">
@@ -34,7 +34,7 @@ export default function Categorydetails({ match }) {
         Home
       </Link>
      
-      <Typography color="textPrimary">Products</Typography>
+      <Typography color="textPrimary" id="cdpro">Products</Typography>
     </Breadcrumbs>
            </Col>
 
@@ -42,7 +42,7 @@ export default function Categorydetails({ match }) {
          </Container>
          </section>
 
-        <Container>
+        <Container className="pro">
             <Row>
       {ProductCategory.Specific_Categorydat.map((e) => (
           <Col lg="3">

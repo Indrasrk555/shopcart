@@ -19,7 +19,7 @@ export default function Service() {
          <Container>
            <Row>
            <Col lg="6">
-             <h3 id="svc">Service</h3>
+             <h3 id="svc">SERVICES</h3>
            </Col>
            <Col lg="6">
            <Breadcrumbs aria-label="breadcrumb">

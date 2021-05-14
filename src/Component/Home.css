@@ -23,16 +23,40 @@
     width: 140px;
     padding-top: 20px;
 }
-.carouheading{
+.carouheading1{
+    text-align: right;
     font-size: 40px;
-    color: rgb(19, 255, 204);
+    color: rgb(2, 10, 1);
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.carouheading3{
+    text-align: right;
+    font-size: 40px;
+    color: rgb(240, 8, 8);
+    font-style: italic;
+    font-family:cursive;
+    font-weight: 600;
+}
+.carouheading2{
+    text-align: right;
+    font-size: 40px;
+    color: rgb(19, 43, 255);
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .caroupara{
+    text-align: right;
     font-size: 25px;
     font-family: cursive;
     color: rgb(248, 197, 31);
+}
+.caroupara1{
+    text-align: right;
+    font-size: 25px;
+    font-family: cursive;
+    color: rgb(10, 248, 208);
 
 }
 /* .covidadd{

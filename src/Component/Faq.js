@@ -59,7 +59,7 @@ export default function Faq() {
         
 
 
-         <Container>
+         <Container className="faqcrd">
           <Row>
             <Col lg="3">
             <Card id="faqcard">
@@ -110,7 +110,7 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>What shipping methods are available ?</Typography>
+          <Typography className={classes.heading} id="accrtopic">What shipping methods are available ?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -126,7 +126,7 @@ export default function Faq() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>What are shipping times and costs ?</Typography>
+          <Typography className={classes.heading} id="accrtopic">What are shipping times and costs ?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -142,7 +142,7 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>What payment methods can I use ?</Typography>
+          <Typography className={classes.heading} id="accrtopic">What payment methods can I use ?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -158,7 +158,7 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Can I use my own domain name ?</Typography>
+          <Typography className={classes.heading} id="accrtopic">Can I use my own domain name ?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -174,7 +174,7 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>What kind of customer service do you offer ?</Typography>
+          <Typography className={classes.heading} id="accrtopic">What kind of customer service do you offer ?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

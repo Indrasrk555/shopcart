@@ -16,9 +16,9 @@ export default function Home() {
       
     />
     <Carousel.Caption>
-    <h3 className="carouheading"> India's biggest sale is live now </h3>
-      <p className="caroupara">HURRRYY UPP !!!</p>
-      <p className="caroupara">Shop and grab the opportunity to win exciting prizes & cashbacks.</p>
+    <h3 className="carouheading1"> India's biggest sale is live now </h3>
+      <p className="caroupara1">HURRRYY UPP !!!</p>
+      <p className="caroupara1">Shop and grab the opportunity to win exciting prizes & cashbacks.</p>
 
     </Carousel.Caption>
   </Carousel.Item>
@@ -29,19 +29,19 @@ export default function Home() {
       alt="Second slide"
     />
     <Carousel.Caption>
-      <h3 className="carouheading">Enjoy great cashback offers </h3>
+      <h3 className="carouheading2">Enjoy great cashback offers </h3>
       <p className="caroupara">Make fashion more & more exciting with our choices.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://nettv4u.com/fileman/Uploads2/10-celebs-and-the-mobile-phones-they-use/aamir_samsung.jpg"
+      src="https://trekbible.com/wp-content/uploads/2018/03/JBL-Flip-45.jpg"
       alt="Third slide"
     />
     <Carousel.Caption>
-    <h3 className="carouheading"> Best Prices on Mobiles </h3>
-      <p className="caroupara"> Enjoy great deals on electronics & grab a chance to win a vedio meet up with Aamir Khan</p>
+    <h3 className="carouheading3"> Best deals on wireless speakers...</h3>
+      
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
@@ -79,7 +79,7 @@ export default function Home() {
      <h1 id="bstprdcts">Our best products</h1> 
      <img
       id="prdcts"
-      src="https://img2.pngio.com/goeleco-lg-electronics-products-png-821_448.jpg"
+      src="https://i.pinimg.com/originals/9f/ff/06/9fff068b7f1f6fd97d70991de01adb5f.png"
       alt=""
     />
      </section>
